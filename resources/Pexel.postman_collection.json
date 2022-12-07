@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "49f4f730-ba14-4d3d-a9e8-3ea62a03ab22",
+		"name": "Pexel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/V1/search?query=cat",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"V1",
+						"search"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "cat"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
